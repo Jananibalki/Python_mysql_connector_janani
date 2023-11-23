@@ -1,0 +1,5 @@
+using replit to write python programs
+
+how to run python file, navigate folders in cli
+
+programmer editors  (vs code)
