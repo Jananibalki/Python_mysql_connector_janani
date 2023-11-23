@@ -1,0 +1,14 @@
+computer purpose - to do things for us
+we speak their language
+
+as a programmer - we use some tools to build other tools
+code - sequence of instructions
+
+for longer programs - we use python scripts
+
+modes - interactive(2-3 lines) vs script(for longer programs)
+
+steps:
+sequential 
+repeated
+conditional 

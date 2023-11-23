@@ -1,0 +1,18 @@
+constants - (print(23) print("hello")
+
+reserved words - (True, False, one, in, is, as, finally etc...)
+
+variables - (case sensitive, consists of letters, numbers and underscores)
+
+operator( -, +, /, %, ** - power)
+
+operator precedence - ( brackets, power, mul, add, BODMAS)
+
++ ( add. of nos / concat in string)
+
+type casting ( int(), float(), type())
+
+a=test
+a * 3 == test test test
+
+input() - always returs string
