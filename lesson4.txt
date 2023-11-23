@@ -1,0 +1,18 @@
+increase indent after if and for:
+
+decrease to indicate end of if or for block
+
+if elif else
+one way
+two way
+nested
+multi way
+
+try catch 
+if the code in the try works, except is skipped
+if the code in the try fails, except is executed
+
+
+short circuit evaluation of logical expressions.
+x=1, y=8
+eg : x>2 and x/y==9(it only check the first part as it is false, it short circuit)
