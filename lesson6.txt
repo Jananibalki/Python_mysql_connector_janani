@@ -1,0 +1,8 @@
+break (ends the current loop)
+continue (ends current iteration)
+
+while loops (indefinite loops)
+-because they keep going until the condition becomes false
+
+for loops (definite loops)
+- because they execute an exact number of times

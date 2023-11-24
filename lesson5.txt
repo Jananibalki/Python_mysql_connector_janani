@@ -1,0 +1,29 @@
+functions (for reusability of code, avoids repetition)
+Dividing a long program into functions allows you to debug the parts one at a time
+
+-builtin(int(), float(), input())
+-we define
+
+type conversion functions
+
+math functions
+-iport math
+math.log10()
+math.sin()
+math.pi
+math.sqrt()
+math.pow(2,3)
+
+ function random returns a random float between 0.0 and 1.0 (including 0.0 but not 1.0). 
+ Each time you call random, you get the next number in a long series.
+import random
+random.random()
+random.randint(5,10)
+t = [1, 2, 3]
+>>> random.choice(t)
+
+fruitful function
+-one that produces a result or return values
+
+non-fruitful function
+-function which does not return anything(void)
