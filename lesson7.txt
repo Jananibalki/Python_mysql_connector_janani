@@ -1,0 +1,93 @@
+str = "banana"
+slicing = str[0,4] or str[:6] or str[3:] or s[:]
+
+>>> fruit = 'banana'
+if 'n' in fruit
+True
+
+fruit.upper()
+fruit.lower()
+
+
+string libraries
+----------------------------------------
+str.capitalize()
+str.center(width[, fillchar])
+str.endswith(suffix[, start[, end]])
+str.find(sub[, start[, end]])
+str.replace(old, new[, count])
+str.lower()
+str.upper()
+str.lstrip([chars])
+str.rstrip([chars])
+str.strip([chars])
+
+text = "hello world"
+capitalized_text = text.capitalize()
+print(capitalized_text)  # Output: Hello world
+
+text = "hello"
+centered_text = text.center(10, '*')
+print(centered_text)  # Output: **hello***
+
+text = "hello world"
+result = text.endswith("world")
+print(result)  # Output: True
+
+text = "hello world"
+index = text.find("world")
+print(index)  # Output: 6
+
+text = "hello world"
+new_text = text.replace("world", "universe")
+print(new_text)  # Output: hello universe
+
+
+find() function to search for a substring within another string
+fruit = 'banana'
+>>> pos = fruit.find('na')
+>>> print(pos)
+2
+>>> aa = fruit.find('z')
+>>> print(aa)
+-1
+
+replace() function is like a “search and replace” 
+
+greet = 'Hello Bob'
+>>> nstr = greet.replace('Bob','Jane')
+>>> print(nstr)
+Hello Jane
+>>> nstr = greet.replace('o','X')
+>>> print(nstr)
+HellX BXb
+>>> 
+
+
+greet = '   Hello Bob  '
+>>> greet.lstrip()
+'Hello Bob  '
+>>> greet.rstrip()
+'   Hello Bob'
+>>> greet.strip()
+'Hello Bob'
+
+
+line = 'Please have a nice day'
+>>> line.startswith('Please')
+True
+>>> line.startswith('p')
+False
+
+
+data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+>>> atpos = data.find('@')
+>>> print(atpos)
+21
+>>> sppos = data.find(' ',atpos)
+>>> print(sppos)
+31
+>>> host = data[atpos+1 : sppos]
+>>> print(host)
+uct.ac.za
+
