@@ -1,0 +1,66 @@
+Most of our variables have one value in them - 
+when we put a new value in the variable - the old value is overwritten
+
+list((1,2))
+tuple((1,2))
+dict(a = 'janani')
+
+List
+ - A linear collection of values that stay in order
+
+Dictionary
+ - A “bag” of values, each with its own label
+ -ordered
+
+>>> lst = list()
+>>> lst.append(21)
+>>> lst.append(183)
+>>> print(lst)
+[21, 183]
+>>> lst[0] = 23
+>>> print(lst)
+[23, 183]
+
+
+>>> ddd = dict()
+>>> ddd['age'] = 21
+>>> ddd['course'] = 182
+>>> print(ddd)
+{'course': 182, 'age': 21}
+>>> ddd['age'] = 23
+>>> print(ddd)
+{'course': 182, 'age': 23}
+
+
+Dictionary Tracebacks
+It is an error to reference a key which is not in the dictionary
+We can use the in operator to see if a key is in the dictionary
+>>> ccc = dict()
+>>> print(ccc['csev'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'csev'
+>>> 'csev' in ccc
+False
+
+
+We can use get() and provide a default value of zero when the key is not yet in the dictionary - and then just add one
+
+counts = dict()
+names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
+for name in names :
+    counts[name] = counts.get(name, 0) + 1
+print(counts)
+
+
+===========================================
+
+for k, v in states_tz_dict.items():
+    print(k,"--->", v)
+
+for k in states_tz_dict.keys():
+    print(k)
+
+for v in states_tz_dict.values():
+    print(v)
+
